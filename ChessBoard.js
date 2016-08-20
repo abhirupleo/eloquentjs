@@ -23,7 +23,7 @@ while(row<size){
 			}break;
 		// if the row is odd then we start with # symbol
 		case 1 :
-			var string = "#"; 
+			var string = "#";
 			for(var i=0;i<=size;i++){
 				if (i%2 === 0) {
 					var nextString = " ";
@@ -36,4 +36,5 @@ while(row<size){
 	}
 	console.log(string);	// we print the final string on the log after looping through all the columns
 	row++;					// we increment the row to move onto the next row
+
 } 
